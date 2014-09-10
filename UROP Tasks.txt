@@ -1,0 +1,26 @@
+iOS TODO
+	- Implement CoreData for persistent data storage
+	- GUI glitch fixes for random cropping
+	- Improved error handling (network issues)
+	- Implement GPS 'pop' mode only when transit change detected
+	- Add context-based check-in options and an option box to set check-in timer
+	- Fix issue with multiple check-ins stacking up
+	- Change check-in time in logs to record only when button is pressed; not at regular intervals
+	- Add vibration / notification for check-in requests
+	- Allow background data logging
+	- GUI: Add text next to color-only status indicators
+	- Shakedown testing of app
+	- Self data logging
+	- Measure battery life impact
+
+TODO Related code
+	- Python capture server parsing to SQL
+	- Web app showing transit history
+
+Optional future features
+	Mapping page, graphically showing transit history
+	Change e-mail, FTP filename when uploading (currently 'abc.txt' [iOs] or 'SensorValues.txt' [Android]) to match the description entered by the user on the review page, or use timestamp if default description is unchanged
+	Implement multiple file selection for deletion, multi-upload, or multi-e-mail on both iOS and Android
+	Add streaming parameters to settings (Upload interval [seconds] and Data window [seconds] to dynamically change the time between TCP connections and the duration of data sent
+	Implementation of 'Map' screen for each app, showing type of motion color-coded on a map
+	Sync timestamp when user presses button, not when written to SQLite
